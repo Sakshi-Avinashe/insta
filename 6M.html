@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+          height: 1000px;
+          width: 1000px;
+          margin: 45px;
+          background-color: rgb(189, 44, 109) ;
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+          grid-template-rows: repeat(4,200px);
+          gap: 10px;
+          padding: 4rem;
+          /* border: 2px solid black; */
+          place-items: center-end;
+          justify-content: center;
+        }
+        .item
+        {
+            background-color: rgb(150, 150, 144);
+            height: 100px;
+            width: 100px;
+            border: 20px solid rgb(144, 48, 196);
+            justify-self: end;
+            align-items: center;
+        }
+        .item-2
+        {
+            justify-self: center;
+        }
+        .item-3
+        {
+            justify-self: left;
+        }
+        .item-10
+        {
+            order: -1;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item-1">A</div>
+        <div class="item item-2">B</div>
+        <div class="item item-3">C</div>
+        <div class="item item-4">D</div>
+        <div class="item item-5">E</div>
+        <div class="item item-6">F</div>
+        <div class="item item-7">G</div>
+        <div class="item item-8">H</div>
+        <div class="item item-9">I</div>
+        <div class="item item-10">J</div>
+        <div class="item item-11">K</div>
+        <div class="item item-12">L</div>
+    </div>
+</body>
+</html>

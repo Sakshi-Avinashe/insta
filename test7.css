@@ -1,0 +1,39 @@
+.sakshi{
+    border: 2px solid black;
+    display: flex;
+    background-color:#cc6600;
+    justify-content:space-evenly;
+    
+    padding-bottom: 10px;
+}
+
+button{
+    height: 20px;
+    
+}
+.container{
+    
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+ .sec1{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    
+    
+   
+ }
+ .sec2{
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 100px;
+ }
+.sec3{
+    background-color: darkolivegreen;
+    height: 100px;
+    width: 100px;
+}

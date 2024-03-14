@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            /* align-items: ; */
+            justify-content: center;
+           align-items: center;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+            position:absolute;
+            background-color: red;
+            /* transform: rotate(60deg); */
+            animation-duration: 10s;
+            animation-name: myfirstanimation;
+            animation-iteration-count: infinite;
+        }
+        .box:hover{
+            /* transform:translateX(80px) */
+            width: 300px;
+            height: 500px;
+            transition-property:all;
+            transition-duration: 5s;
+            transition-timing-function: ease-in;
+            
+        }
+        @keyframes myfirstanimation{
+            0%{
+                background-color: aqua;
+            }
+            24%{
+                background-color: blueviolet;
+            }
+            65%{
+                background-color: cadetblue;
+            }
+            
+            from{
+                top:10px;
+                background-color: aquamarine;
+            }
+            to{
+                top:500px;
+                background-color: blue;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
